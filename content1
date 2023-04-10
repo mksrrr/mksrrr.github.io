@@ -1,0 +1,29 @@
+<div id = "attantion">
+  Внимание! Сайт является частью лабораторной работы. Информация, представленная на сайте, является выдумкой автора!
+  <hr>
+</div>
+
+<div id = "shap"><p>
+  Москва и МО &#160;
+  <img src = "MaxLawComp/9a6bd90455faf6000bee7126f7270191.png" alt ="Время работы:" class = "clock"> Пн-Сб: 9:00-21:00 &#160;
+  <img src ="MaxLawComp/4c034caf23923ab90db53369f99d0d56.png" alt = "Телефон:" class = "phone"> 8-800-888-00-88
+  </p>
+</div>
+
+<div id = "head">
+  <hr>
+  <br>
+  <h1>Юридическая компания "Max Law Comp"</h1><br>
+  <h4>Мы не работаем, чтобы защищать ваши права</h4>
+  <br>
+</div>
+
+<nav>
+  <hr>
+  <a href="index.shtml">Главная</a>
+  <a href="services.shtml">Услуги</a>
+  <a href="articles.shtml">FAQ</a>
+  <a href="reviews.shtml">Отзывы</a>
+  <a href="contacts.shtml">Контакты</a>
+  <hr>
+</nav>
