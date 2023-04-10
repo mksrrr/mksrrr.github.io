@@ -1,0 +1,893 @@
+body{
+  font-family: Verdana;
+  cursor: default;
+}
+
+#time{
+  margin: 10px auto 5px;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+i{
+  font-style: italic;
+  font-size: 20px;
+}
+  
+b{
+  font-weight: bold;
+}
+  
+hr {
+  height: 3px; /* высота / толщина линии */
+  background: #333; /* фон / цвет линии */
+  border: 0; /* рамка вокруг разделительной линии (уберем ее) */
+}
+
+li{
+  list-style-type: disc;
+}
+
+ul.faq{
+  padding-left:60px;
+}
+
+h1{
+  font-family: Georgia;
+  font-size: 60px;
+}
+
+h2{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#attantion{
+  background-color:white;
+  margin: 10px auto 5px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: -7.5px;
+}
+  
+#shap{
+  background: rgb(69,41,33);
+  background: linear-gradient(90deg, rgba(69,41,33,0.7654412106639531) 0%, rgba(182,123,93,0.8802871490393032) 100%);
+  padding: 30px;
+  text-align: center;
+  font-size: 25px;
+  color: #FFFFFF;
+}
+
+#head {
+  margin-top: -20px ;
+  width: 100%;
+  margin-bottom: -17px;
+  background-image: url(MaxLawComp/fon.jpeg);
+  text-align: center;
+  font-family: Georgia;
+  font-size: 40px;
+	color: #FFFFFF;
+	text-shadow: 
+		  -0   -2px 1px #000000,
+		   0   -2px 1px #000000,
+		  -0    2px 1px #000000,
+		   0    2px 1px #000000,
+		  -2px -0   1px #000000,
+		   2px -0   1px #000000,
+		  -2px  0   1px #000000,
+		   2px  0   1px #000000,
+		  -1px -2px 1px #000000,
+		   1px -2px 1px #000000,
+		  -1px  2px 1px #000000,
+		   1px  2px 1px #000000,
+		  -2px -1px 1px #000000,
+		   2px -1px 1px #000000,
+		  -2px  1px 1px #000000,
+		   2px  1px 1px #000000,
+		  -2px -2px 1px #000000,
+		   2px -2px 1px #000000,
+		  -2px  2px 1px #000000,
+		   2px  2px 1px #000000,
+		  -2px -2px 1px #000000,
+		   2px -2px 1px #000000,
+		  -2px  2px 1px #000000,
+		 2px  2px 1px #000000;
+}
+
+nav{
+  margin: 10px auto 5px;
+  width: 100%;
+  word-spacing: 70px;
+  margin: 0px;
+  padding: 0;
+  background-color: white;
+  text-align: center;
+  font-family: Times;
+}
+  
+a {
+  margin:10px;
+  padding: 0px;
+  font-size: 30px;
+  color: black;
+  text-decoration:none; /*Убираем стандартное подчёркивание ссылки если оно ещё не убрано*/
+  display: inline-block; /*делаем чтобы наша ссылка из строчного элемента превратилась в строчно-блочный */
+  line-height: 1.5; /*Задаём высоту строки (можно в пикселях)*/
+}
+    
+a:after {
+  display: block; /*превращаем его в блочный элемент*/
+  content: ""; /*контента в данном блоке не будет поэтому в кавычках ничего не ставим*/
+  height: 3px; /*задаём высоту линии*/
+  width: 0%; /*задаём начальную ширину элемента (линии)*/
+  background-color: #000000; /*цвет фона элемента*/
+  transition: width 0.4s ease-in-out; /*данное свойство отвечает за плавное изменение ширины. Здесь можно задать время анимации в секундах (в данном случае задано 0.4 секунды)*/
+}
+
+a:hover:after, a:focus:after {
+  width: 100%;
+}
+  
+a:hover{
+  color:#000000;
+} 
+
+.first, #firsta{
+  text-align: center;
+  font-size: 30px;
+  margin-top: -8px;
+  background: linear-gradient(90deg, rgba(69,41,33,0.7654412106639531) 0%, rgba(182,123,93,0.8802871490393032) 100%);
+  color: #FFFFFF;
+} 
+
+#firsta{
+  margin-bottom: -10px;
+}
+
+table.text1{
+  margin: 10px auto 5px;
+  width: 70%;
+  text-align: left;
+}
+
+#text2,#text4{
+  padding-top: 10px;
+  padding-right:13px;
+  vertical-align: top;
+}
+
+#text3{
+  vertical-align: middle;
+}
+
+#text4{
+  padding-top: 50px;
+}
+
+.second{
+  margin: 10px auto 5px;
+  width: 70%;
+  text-align:center;
+  font-size: 30px;
+  color: black;
+}
+
+#stat{
+  text-align: left;
+  padding-left: 200px;
+  font-size: 30px;
+}
+
+.third{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: -10px;
+  background: rgb(69,41,33);
+    background: linear-gradient(90deg, rgba(69,41,33,0.7654412106639531) 0%, rgba(182,123,93,0.8802871490393032) 100%);
+  color: #FFFFFF;
+}
+
+.third>p{
+  width: 70%;
+  margin: 10px auto 5px;
+}
+
+#contacts{
+  margin-top: 120px;
+  font-size: 25px;
+  font-weight: normal;
+  text-align: left;
+  padding-left: 15%;
+  margin-bottom: -10px;
+}
+
+#table1{
+  margin: 10px auto 5px;
+  table-layout: fixed;
+  margin-top:10px;
+  width: 70%;
+}
+
+#ttab1,#ttab2,#ttab3,#ttab4,#ttab5,#ttab6{
+  padding-top: 5px;
+  padding-right: 25px;
+  align-self: center;
+  font-size: 23px;
+  
+}
+
+#ttab1,#ttab2,#ttab3,#ttab4{
+  padding-bottom: 20px;
+}
+
+th.tzl, th.tzr{
+  padding-bottom: 5px;
+  font-size: 27px;
+  font-weight: bold;
+}
+
+th.tzl,th.tzr,#ttab1,#ttab2,#ttab3,#ttab4,#ttab5,#ttab6{
+  text-align: left;
+  color: #FFFFFF;
+  padding-left: 50px;
+}
+
+#tables2{
+  table-layout: fixed;
+  background: rgb(69,41,33);
+  background: linear-gradient(90deg, rgba(69,41,33,0.7654412106639531) 0%, rgba(182,123,93,0.8802871490393032) 100%);
+  padding: 20px;
+}
+
+#table2{
+  border-radius: 5px;
+  border-collapse: collapse;
+  width: 70%;
+  margin: 10px auto 5px;
+  color: white;
+}
+
+th.tl, th.tbl{
+  border-bottom: 1px solid white;
+  padding-left: 20px;
+  text-align: left;
+  font-weight: bold;
+}
+
+th.tr, th.tbr{
+  border-bottom: 1px solid white;
+  padding-right: 20px;
+  text-align: right;
+}
+
+th.tl{
+  padding-left: 30px;
+}
+
+th.tl, th.tr{
+  padding-top: 6px;
+  padding-bottom: 3px;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+th.tbl, th.tbr{
+  padding-top: 6px;
+  padding-bottom: 3px;
+  font-size: 25px;
+}
+
+#spisok{
+  width: 70%;
+  margin: 10px auto 5px;
+  text-align: left;
+  font-size: 25px;
+}
+
+p.otz1, p.otz3{
+  font-size: 25px;
+  margin: 10px auto 5px;
+  width: 70%;
+  text-align: left;
+}
+
+p.otz2{
+  font-size: 25px;
+  margin: 10px auto 5px;
+  text-align: right;
+}
+
+footer{
+  margin-bottom: -25px;
+  background-color: white;
+  text-align: center;
+  font-family: Verdana;
+  font-size: 20px;
+  color: #000000;
+}
+
+img.map{
+  float: right; /* Обтекание картинки по правому краю */
+  width:550px;
+  height:440px;
+}
+
+img.urist{
+  float: right; /* Обтекание картинки по правому краю */
+  width: 350px;
+  height: 350px;
+}
+
+details{
+  margin: 10px auto 5px;
+  text-align: left;
+  width: 70%;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+summary{
+  font-size: 26px;
+  font-weight: bold;
+}
+
+p.faq{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 60px;
+}
+
+img.clock, img.phone,img.clockf, img.phonef{
+  width:25px;
+  height:25px;
+}
+
+
+
+@media print{
+
+  .first, .second, .third>p, p.otz1, #firsta, #spisok, #free, details{
+    width: 100%;
+    font-family: Times;
+    color: black;
+  }
+
+  .third>p{
+    margin-top: -20px;
+  }
+
+  #table2, #ttab1, th.tzl, th.tzr, #ttab2, #ttab3,#ttab4,#ttab5,#ttab6{
+    color: black;
+  }
+
+  table.text1, #table1, #stat, #tables2, #table2{
+    width: 100%;
+  }
+
+  th.tbl, th.tl{
+    padding-left: 0px;
+  }
+
+  #head{
+    width: 90%;
+    font-family: Times;
+    color: black;
+    margin: 10px auto 5px;
+    text-shadow: none;
+    margin-top: -80px;
+  }
+
+  nav, #attantion, #shap, #head, footer, #time{
+    display: none;
+  }
+
+  h2{
+    text-align: center;
+    color: black;
+  }
+
+  .second, .third>p, #spisok, #free{
+    text-align: left;
+  }
+
+  #spisok{
+    margin-bottom: 20px;
+  }
+
+  img.map{
+    float: right; 
+    width:450px;
+    height:340px;
+    margin-top: 70px;
+  }
+
+  #firsta>table.text1{
+    margin-top: -30px;
+  }
+}
+
+
+
+@media screen and (max-width:768px){
+
+  body, #attantion, #shap>p, nav, .first, .third,.second, #firsta{
+    width: 100%;
+  }
+
+  #time{
+    font-size: 10px;
+  }
+
+  .second>p, #spisok, #free, details{
+    width: 80%;
+    margin: 10px auto 5px;
+  }
+
+  #attantion, footer{
+    font-size: 10px;
+  }
+
+  .second,.third,.first, #spisok, #free, details, summary, p.otz1, p.otz2, p.otz3, #text4{
+    font-size: 15px;
+  }
+
+  th.tzl, th.tzr, #ttab1, #ttab2, #ttab3, #ttab4, #ttab5, #ttab6{
+    font-size: 15px;
+    padding-left: 0px;
+  }
+
+  th.tzr, #ttab2, #ttab4, #ttab6{
+    padding-left: 3px;
+    word-wrap: normal;
+    text-align: left;
+    padding-right: 0px;
+  }
+
+  #table1{
+    width: 80%;
+  }
+
+  #stat{
+    padding-left: 0px;
+    font-size: 15px;
+    width: 70%;
+    margin: 10px auto 5px;
+  }
+
+  #table1{
+    padding:0px;
+  }
+
+  #shap{
+    margin-top: 7px;
+    font-size: 15px;
+    padding:15px;
+    padding-bottom: 20px;
+  }
+
+  img.clock, img.phone{
+    width:15px;
+    height:15px;
+  }
+
+  img.clockf, img.phonef{
+    width:11px;
+    height:11px;
+  }
+
+  #head{
+    font-size: 20px;
+  }
+
+  h1{
+    font-size: 30px;
+  }
+
+  nav{
+    word-spacing: 0px;
+  }
+
+  a{
+    width: 100%;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin: -3px;
+  }
+
+  h2{
+    font-size: 20px;
+    margin: 10px auto 5px;
+  }
+
+  table.text1{
+    width:80%;
+    font-size: 15px;
+    margin-top: 0px;
+  }
+
+  #text2{
+    padding-right: 33px;
+
+  }
+
+  img.urist{
+    padding:0px;
+    width: 180px;
+    height: 180px;
+  }
+
+  footer>p{
+    padding-right: 13%;
+    padding-left: 13%;
+  }
+
+  a:after {
+    display: none;
+  }
+
+  #table2{
+    width: 90%;
+    margin-top: -1px;
+  }
+  
+  #tables2{
+    margin-top: -5px;
+  }
+
+  th.tbl, th.tbr, th.tl, th.tr{
+    font-size: 15px;
+    padding-left:0px;
+    padding-right:0px;
+  }
+
+  p.faq, ul.faq{
+    padding-left: 10px;
+  }
+
+  p.otz1, p.otz3{
+    width: 90%;
+  }
+
+  b, i{
+    font-size: 15px;
+  }
+
+  img.map{
+    width:220px;
+    height:220px;
+  }
+
+  #firsta>table.text1{
+    margin-top: -20px;
+  }
+}
+
+
+
+@media screen and (max-width:426px){
+  
+  body, #attantion, #shap>p, nav, .first, .third,.second, #firsta{
+    width: 100%;
+  }
+
+  #time{
+    font-size: 10px;
+  }
+
+  .second>p, #spisok, #free, details{
+    width: 90%;
+    margin: 10px auto 5px;
+  }
+
+  #attantion, footer{
+    font-size: 10px;
+  }
+
+  .second,.third,.first, #spisok, #free, details, summary, p.otz1, p.otz2, p.otz3, #text4{
+    font-size: 15px;
+  }
+
+  th.tzl, th.tzr, #ttab1, #ttab2, #ttab3, #ttab4, #ttab5, #ttab6{
+    font-size: 15px;
+    padding-left: 0px;
+  }
+
+  th.tzr, #ttab2, #ttab4, #ttab6{
+    padding-left: 3px;
+    word-wrap: normal;
+    text-align: right;
+    padding-right: 0px;
+  }
+
+  #table1{
+    width: 80%;
+  }
+
+  #stat{
+    padding-left: 0px;
+    font-size: 15px;
+    width: 70%;
+    margin: 10px auto 5px;
+  }
+
+  #table1{
+    padding:0px;
+  }
+
+  #shap{
+    margin-top: 7px;
+    font-size: 15px;
+    padding:15px;
+    padding-top: 5px;
+  }
+
+  #shap>p{
+    width: 78%;
+    margin: 10px auto 5px;
+  }
+
+  img.clock, img.phone{
+    width:15px;
+    height:15px;
+  }
+
+  img.clockf, img.phonef{
+    width:11px;
+    height:11px;
+  }
+
+  #head{
+    font-size: 20px;
+  }
+
+  h1{
+    font-size: 30px;
+    width: 90%;
+    margin: 10px auto 5px;
+  }
+
+  h4{
+    font-size: 20px;
+    width: 90%;
+    margin: 10px auto 5px;
+  }
+
+  nav{
+    word-spacing: 0px;
+  }
+
+  a{
+    width: 100%;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin: -3px;
+  }
+
+  h2{
+    font-size: 20px;
+    margin: 10px auto 5px;
+  }
+
+  table.text1{
+    width:90%;
+    font-size: 15px;
+    margin-top: 0px;
+  }
+
+  #text2{
+    padding-right: 3px;
+  }
+
+  img.urist{
+    padding:0px;
+    width: 100px;
+    height: 180px;
+    padding-top: 20px;
+  }
+
+  footer>p{
+    padding-right: 13%;
+    padding-left: 13%;
+  }
+
+  a:after {
+    display: none;
+  }
+
+  #table2{
+    width: 90%;
+    margin-top: -1px;
+  }
+  
+  #tables2{
+    margin-top: -5px;
+  }
+
+  th.tbl, th.tbr, th.tl, th.tr{
+    font-size: 15px;
+    padding-left:0px;
+    padding-right:0px;
+  }
+
+  p.faq, ul.faq{
+    padding-left: 10px;
+  }
+
+  p.otz1, p.otz3{
+    width: 90%;
+  }
+
+  b, i{
+    font-size: 15px;
+  }
+
+  img.map{
+    width:120px;
+    height:150px;
+  }
+
+  #firsta>table.text1{
+    margin-top: -50px;
+  }
+}
+
+
+
+@media screen and (max-width:320px){
+  body, #attantion, #shap>p, nav, .first, .third,.second, #firsta{
+    width: 100%;
+  }
+
+  #time{
+    font-size: 10px;
+  }
+
+  .second>p, #spisok, #free, details{
+    width: 90%;
+    margin: 10px auto 5px;
+  }
+
+  #attantion, footer{
+    font-size: 10px;
+  }
+
+  .second,.third,.first, #spisok, #free, details, summary, p.otz1, p.otz2, p.otz3, #text4{
+    font-size: 15px;
+  }
+
+  th.tzl, th.tzr, #ttab1, #ttab2, #ttab3, #ttab4, #ttab5, #ttab6{
+    font-size: 15px;
+    padding-left: 0px;
+  }
+
+  th.tzr, #ttab2, #ttab4, #ttab6{
+    padding-left: 3px;
+    word-wrap: normal;
+    text-align: right;
+    padding-right: 0px;
+  }
+
+  #table1{
+    width: 80%;
+  }
+
+  #stat{
+    padding-left: 0px;
+    font-size: 15px;
+    width: 70%;
+    margin: 10px auto 5px;
+  }
+
+  #table1{
+    padding:0px;
+  }
+
+  #shap{
+    margin-top: 7px;
+    font-size: 15px;
+    padding:15px;
+    padding-top: 5px;
+  }
+
+  img.clock, img.phone{
+    width:15px;
+    height:15px;
+  }
+
+  img.clockf, img.phonef{
+    width:11px;
+    height:11px;
+  }
+
+  #head{
+    font-size: 20px;
+  }
+
+  h1{
+    font-size: 30px;
+  }
+
+  nav{
+    word-spacing: 0px;
+  }
+
+  a{
+    width: 100%;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin: -3px;
+  }
+
+  h2{
+    font-size: 20px;
+    margin: 10px auto 5px;
+  }
+
+  table.text1{
+    width:90%;
+    font-size: 15px;
+    margin-top: 0px;
+  }
+
+  #text2{
+    padding-right: 3px;
+  }
+
+  img.urist{
+    padding:0px;
+    width: 100px;
+    height: 180px;
+    padding-top: 60px;
+  }
+
+  footer>p{
+    padding-right: 13%;
+    padding-left: 13%;
+  }
+
+  a:after {
+    display: none;
+  }
+
+  #table2{
+    width: 90%;
+    margin-top: -1px;
+  }
+  
+  #tables2{
+    margin-top: -5px;
+  }
+
+  th.tbl, th.tbr, th.tl, th.tr{
+    font-size: 15px;
+    padding-left:0px;
+    padding-right:0px;
+  }
+
+  p.faq, ul.faq{
+    padding-left: 10px;
+  }
+
+  p.otz1, p.otz3{
+    width: 90%;
+  }
+
+  b, i{
+    font-size: 15px;
+  }
+
+  img.map{
+    width:120px;
+    height:150px;
+  }
+
+  #firsta>table.text1{
+    margin-top: -50px;
+  }
+}
